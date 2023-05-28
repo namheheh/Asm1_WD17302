@@ -8,7 +8,7 @@ import { DashboardComponent } from './pages/admin/dashboard/dashboard.component'
 import { ProductAddComponent } from './pages/admin/product-add/product-add.component';
 import { ProductEditComponent } from './pages/admin/product-edit/product-edit.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +21,9 @@ import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.compone
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
