@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { AdminProductComponent } from './pages/admin/admin-product/admin-product.component';
 import { DashboardComponent } from './pages/admin/dashboard/dashboard.component';
 import { ProductAddComponent } from './pages/admin/product-add/product-add.component';
-import { ProductListComponent } from './pages/admin/product-list/product-list.component';
 import { ProductEditComponent } from './pages/admin/product-edit/product-edit.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 
@@ -16,7 +15,6 @@ import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.compone
     AdminProductComponent,
     DashboardComponent,
     ProductAddComponent,
-    ProductListComponent,
     ProductEditComponent,
     AdminLayoutComponent
   ],

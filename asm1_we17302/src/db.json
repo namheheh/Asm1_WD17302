@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Product Adwefr da sua",
+      "name": "Product A",
       "price": 200
     },
     {
@@ -14,11 +14,6 @@
       "id": 3,
       "name": "Product C",
       "price": 200
-    },
-    {
-      "name": "san pham dzai",
-      "price": 10000000000,
-      "id": 4
     }
   ]
 }
